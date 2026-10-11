@@ -6,23 +6,23 @@
  * License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html). */
 
 import {
-    clickOnSave,
-    insertSnippet,
-    registerWebsitePreviewTour,
+  clickOnSave,
+  insertSnippet,
+  registerWebsitePreviewTour,
 } from "@website/js/tours/tour_utils";
 
 registerWebsitePreviewTour(
-    "marginless_gallery",
-    {
-        url: "/",
-        edition: true,
-    },
-    () => [
-        ...insertSnippet({
-            id: "s_marginless_gallery",
-            name: "Marginless Gallery",
-            groupName: "Images",
-        }),
-        ...clickOnSave(),
-    ]
+  "marginless_gallery",
+  {
+    url: "/",
+    edition: true,
+  },
+  () => [
+    ...insertSnippet({
+      id: "s_marginless_gallery",
+      name: "Marginless Gallery",
+      groupName: "Images",
+    }),
+    ...clickOnSave(),
+  ]
 );
