@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <templates xml:space="preserve">
 <t
         t-name="website_form_require_legal.s_website_form_form_option"
@@ -23,9 +24,9 @@
                     <div id="website_form_terms_and_conditions_div" class="form-check">
                         <input
                             id="website_form_terms_and_conditions_input"
+                            class="s_website_form_input form-check-input"
                             type="checkbox"
                             required="1"
-                            class="s_website_form_input form-check-input"
                             name="legal_terms"
                             data-field="website_form_terms_and_conditions"
                         />
