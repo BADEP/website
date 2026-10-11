@@ -17,7 +17,7 @@
         >
             <div class="row s_col_no_resize s_col_no_bgcolor">
                 <div
-                    t-attf-style="width: #{labelWidth or '200px'}"
+                    t-attf-style="width: #{this.labelWidth or '200px'}"
                     class="s_website_form_label"
                 />
                 <div class="col-sm">
