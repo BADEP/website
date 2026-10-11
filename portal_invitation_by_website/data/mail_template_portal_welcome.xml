@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <record id="mail_template_portal_welcome_website" model="mail.template">
         <field name="name">Portal: User Invite (Website)</field>
